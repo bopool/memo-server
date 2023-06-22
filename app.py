@@ -4,7 +4,6 @@ from config import Config
 from flask_jwt_extended import JWTManager
 from follow import FollowResource
 from resources.memo import FollowMemoListResource, MemoListResource, MemoResource
-
 from resources.user import UserLoginResource, UserLogoutResource, UserRegisterResource, jwt_blocklist
 
 
