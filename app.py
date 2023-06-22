@@ -14,7 +14,7 @@ app = Flask(__name__)
 print('app 변수 생성')
 
 # 환경변수 셋팅 
-app.config.from_object(Config) # 클래스를 넣어줬다.
+app.config.from_object(Config) # 클래스를 넣어줬다
 
 # JWT 매니저 초기화 
 jwt = JWTManager(app)
